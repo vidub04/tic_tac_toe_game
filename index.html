@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1 id="heading" align="center">TIC TAC TOE</h1>
+    
+    <button id="play" onclick="player()">
+        Two Players<br>
+        <img src="icon.png" alt="icon" width="200" height="200"></img>
+    </button>
+
+    
+    
+    <div class="container">
+        <h2 id="turn">Player 1 Plays ⭕</h2>
+        <button id="continue" onclick="reset()">Play Another Round?</button>
+    <div class="row">
+        <div class="box" id="d1"></div>
+        <div class="box" id="d2"></div>
+        <div class="box" id="d3"></div>
+    </div>
+
+    <div class="row">
+        <div class="box" id="d4"></div>
+        <div class="box" id="d5"></div>
+        <div class="box" id="d6"></div>
+    </div>
+
+    <div class="row">
+        <div class="box" id="d7"></div>
+        <div class="box" id="d8"></div>
+        <div class="box" id="d9"></div>
+    </div>
+
+    <button id="res" onclick="reset()">Reset</button>
+</div>
+
+
+
+</body>
+
+<script src="script.js"></script>
+</html>
